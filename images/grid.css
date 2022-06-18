@@ -1,0 +1,48 @@
+.card {
+    border: 1px solid #d3d3d3;
+    border-radius: .25rem;
+  }
+
+  .shift{
+    margin: auto !important;
+    justify-content: center; 
+  }
+
+  .color1 {
+    background-color: red !important;
+  }
+  .color2{
+    background-color: lightslategray !important;
+  }
+
+  .color3{
+    background-color: blue !important;
+  }
+  
+  .bg-img {
+    background-size: cover;
+    min-height: 180px;
+    background-position: center;
+    background-color: #ccc;
+  }
+  
+  .content {
+    padding: 15px;
+  }
+  
+  button {
+    background-color: white !important;
+    border-radius: 10px;
+    padding: .5rem 1rem;
+    cursor: pointer; 
+
+  }
+  
+
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }  
